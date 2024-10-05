@@ -1,0 +1,105 @@
+.bar {
+    fill: steelblue;
+}
+
+.bar:hover {
+    fill: rgb(197, 216, 204);
+}
+
+text {
+    font-family: sans-serif;
+    font-size: 12px;
+    background-color: #fbcd5d;
+
+}
+
+.car-image {
+    width: 40px;
+    height: 40px;
+}
+
+.tooltip {
+    font-family: sans-serif;
+    font-size: 12px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 8px;
+    display: none;
+    position: absolute;
+    pointer-events: none;
+}
+
+.Items {
+    position: relative;
+    left: 150px;
+    top: 100px;
+}
+
+/* Web Page Deco*/
+
+body {
+    background-color: #292929;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+@font-face {
+    font-family: 'Pangchan'; 
+    src: url('/Fonts/Pangchan.otf') format('truetype'); /* The path to your font file */
+  }
+  
+
+
+  /*NAV BAR*/
+.nav-link {
+    color: white; /* Change the text color */
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Pangchan';
+    margin-right: 30px;
+    
+  }
+  
+  .nav-link:hover {
+    color: #fbcd5d; /* Change the color on hover */
+  }
+
+  #nav-links{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 45px;
+    margin-right: 20px;
+  }
+
+  #nav-logo {
+    width: 150px; /* Adjust the size of the logo */
+    height: auto;
+    color: #fbcd5d;
+    margin-right: 20px; /* Add space between the logo and the navigation items */
+    margin-top: -75px;
+    
+}
+
+#nav-logo:hover{
+    
+}
+
+#nav-logo{
+
+}
+
+/*FOOTER*/
+
+footer {
+    margin-top: auto;  /* Pushes footer to the bottom */
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+}
+
+  
+  
